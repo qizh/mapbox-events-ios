@@ -4,12 +4,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "mapbox-events-ios",
+    name: "MapboxMobileEvents",
     platforms: [
         .iOS(.v9)
     ],
     products: [
-        .library(name: "mapbox-events-ios", targets: ["MapboxMobileEvents"]),
+        .library(name: "MapboxMobileEvents", targets: ["MapboxMobileEvents"]),
     ],
     dependencies: [],
     targets: [
